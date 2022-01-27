@@ -1,7 +1,7 @@
 .container {
   height: 100px;
   padding: 0px 50px;
-  background-color: rgb(240, 85, 85);
+  background-color: crimson;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,7 +77,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: rgb(236, 74, 74);
+    color: crimson;
 }
 
 @media screen and (max-width:480px) {
@@ -89,3 +89,4 @@
     flex: 3;
   }
 }
+

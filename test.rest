@@ -2,16 +2,20 @@ POST http://localhost:3000/api/products HTTP/1.1
 content-type: application/json
 
 {
-    "title": "pizza 3",
+    "title": "pizza 4",
     "img": "/img/pizza.png",
     "desc":"desc3",
     "prices": [
         12, 13, 14
         ],
-    "extraOption":[
+    "extraOptions":[
         {
-        "text": "Extra Saoce",
+        "text": "Extra Sauce",
         "price":2
-    }
+        },
+         {
+        "text": "Extra cheese",
+        "price":3
+        }
     ]
 }

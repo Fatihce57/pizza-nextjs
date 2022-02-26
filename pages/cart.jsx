@@ -11,7 +11,7 @@ import {
 const Cart = () => {
   const [open, setOpen] = useState(false)
   const amount = "2";
-  const currency = "USD";
+  const currency = "EUR";
   const style = { layout: "vertical" };
   const dispatch = useDispatch();
   const cart = useSelector(state => state.cart);
@@ -138,8 +138,8 @@ const Cart = () => {
                 options={{
                   "client-id": "test",
                   components: "buttons",
-                  currency: "USD",
-                  "disable-funding": "credit,card,p24",
+                  currency: "EUR",
+                  // "disable-funding": "credit, card, p24, giropay"
                 }}
               >
                 <ButtonWrapper
